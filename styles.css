@@ -4,9 +4,13 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    
     background-color: #caf0f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
 }
 
 h1, h2 {
@@ -18,15 +22,17 @@ h2 {
 }
 
 .content {
-    min-height: 100vh;
-    width: 1000px;
-    max-width: 90%;
+    
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #00b4d8;
-    padding: 0 24px;
+    padding: 24px;
+    height: 100vh;
+    min-width: max-content;
+    border-radius: 25px;
+    max-width: 90vw
 }
 
 .section {
@@ -34,6 +40,9 @@ h2 {
     width: fit-content;
     margin-bottom: 24px;
     background-color: #90e0ef;
+    min-width: max-content;
+    border-radius: 25px;
+    max-width: fit-content;
 }
 
 .row {
@@ -61,7 +70,7 @@ input {
     outline: none;
     border: none;
     padding: 3px 6px;
-    border-radius: 3px;;
+    border-radius: 4px;;
 }
 
 button {
@@ -71,7 +80,7 @@ button {
     border: none;
     font-size: 18px;
     padding: 6px 12px;
-    border-radius: 3px;
+    border-radius: 4px;
     cursor: pointer;
     transition: box-shadow 0.2s ease;
 }
@@ -79,3 +88,16 @@ button {
 button:hover {
     box-shadow: 0 0 20px #caf0f8;
 }
+
+#result {
+    border-radius: 3px;
+    width: min-content;
+    background-color: #90e0ef;
+    min-width: max-content;
+    border-radius: 25px;
+    max-width: fit-content;
+    margin-top: 24px;
+    
+
+}
+
