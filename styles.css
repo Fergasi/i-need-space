@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-width: fit-content;
     
     
 }
@@ -30,7 +31,7 @@ h2 {
     background-color: #00b4d8;
     padding: 24px;
     height: 100vh;
-    min-width: max-content;
+    min-width: fit-content;
     border-radius: 25px;
     max-width: 90vw
 }
@@ -40,9 +41,9 @@ h2 {
     width: fit-content;
     margin-bottom: 24px;
     background-color: #90e0ef;
-    min-width: max-content;
     border-radius: 25px;
-    max-width: fit-content;
+    min-width: fit-content;
+    
 }
 
 .row {
