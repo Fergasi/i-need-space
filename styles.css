@@ -12,6 +12,7 @@ body {
     min-width: fit-content;
     
     
+    
 }
 
 h1, h2 {
@@ -30,10 +31,11 @@ h2 {
     align-items: center;
     background-color: #00b4d8;
     padding: 24px;
-    height: 100vh;
+    height: fit-content;
     min-width: fit-content;
     border-radius: 25px;
-    max-width: 90vw
+    max-width: 90vw;
+    
 }
 
 .section {
@@ -43,6 +45,7 @@ h2 {
     background-color: #90e0ef;
     border-radius: 25px;
     min-width: fit-content;
+    
     
 }
 
